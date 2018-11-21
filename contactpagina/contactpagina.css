@@ -1,0 +1,175 @@
+div#wrapper {
+    background-color:rgb(230, 255, 250);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+div {
+    font-family: 'KoHo', sans-serif;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    background-color: rgb(128,128,128);
+    padding:10px;
+    padding-left:20px;
+    border-top: 1px solid white;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.adres {
+    padding-left:75px;
+    padding-bottom:25px;
+}
+.text {
+    width:400px;
+    padding-left:75px;
+}
+.button {
+    width:200px;
+    display:block;
+    float:right;
+    padding-top:10px;
+    padding-bottom:25px;
+}
+.form-container {
+    max-width:595px;
+}
+input {
+    float:right;
+    width:300px;
+    box-shadow: 0 5px 8px #02020238;
+    border: 1px solid #f1f1f1;
+    padding: 2px;
+}
+textarea {
+    float:right;
+    width:300px;
+    box-shadow: 0 5px 8px #02020238;
+    border: 1px solid #f1f1f1;
+    padding: 2px;
+}
+iframe {
+    padding-top:25px;
+    padding-bottom:25px;
+}
+header {
+    text-align:center;
+}
+div#wrapper {
+    width:100%;
+}
+
+/*-- section en footer --*/
+
+section, footer {
+    padding:20px;
+}
+footer {
+    background-color: darkgrey;
+    color: white;
+    clear: both;
+    font-family: "PT Sans",sans-serif;
+}
+
+footer h3 {
+    color: white;
+}
+
+.footer-links {
+    padding: 0 10px 0 0;
+    text-decoration: none;
+    color:#ffffff;
+}
+.footer-links:hover {
+    color:#4a78c2;
+    font-weight:600;
+}
+
+/*-- einde section en footer --*/
+
+
+/*-- responsive--*/
+
+@media all and (min-width: 550px){
+    iframe#kaart{
+        width: 100%;
+    }
+    div.adres{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+    footer {
+        width:100%;
+    }
+    ul {
+        background-color: rgb(128,128,128);
+        border-top: 1px solid white;
+    }
+    li {
+        display: inline-block;
+        border: none;
+    }
+}
+
+@media all and (min-width: 920px) {
+    iframe#kaart{
+        width: 100%;
+    }
+    div.adres{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+    footer {
+        width:100%;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    iframe#kaart{
+        width: 100%;
+    }
+    div.adres{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+    footer {
+        width:100%;
+    }
+    div#wrapper {
+        width: 1200px;
+        margin: auto;
+    }
+    #Contactpagina {
+        grid-area: Contactpagina;
+    }
+    #Concerten {
+        grid-area: Concerten;
+    }
+    #Sportevenementen {
+        grid-area: Sportevenementen;
+    }
+    #Kamerbewoners {
+        grid-area: Kamerbewoners;
+    }
+}
+
+/*-- einde responsive--*/

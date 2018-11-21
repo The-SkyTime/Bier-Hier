@@ -1,0 +1,144 @@
+/*-- gemaakt door Sang Nguyen --*/
+div#wrapper {
+    background-color:rgb(230, 255, 250);
+}
+h1 {
+    padding-left:68px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    width:100%;
+}
+li {
+    background-color: rgb(128,128,128);
+    padding:10px;
+    padding-left:20px;
+    border-top: 1px solid white;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+section, footer {
+    padding:20px;
+}
+footer {
+    background-color: darkgrey;
+    color: white;
+    clear: both;
+}
+
+footer h3 {
+    color: white;
+}
+
+.footer-links {
+    padding: 0 10px 0 0;
+    text-decoration: none;
+    color:#ffffff;
+}
+.footer-links:hover {
+    color:#4a78c2;
+    font-weight:600;
+}
+header {
+    text-align:center;
+}
+
+
+/*-- responsive--*/
+
+@media all and (min-width: 550px){
+    form{
+        width: 100%;
+    }
+    footer {
+        width:100%;
+    }
+    ul {
+        background-color: rgb(128,128,128);
+        border-top: 1px solid white;
+    }
+    li {
+        display: inline-block;
+        border: none;
+    }
+}
+
+@media all and (min-width: 920px) {
+    form{
+        width:94%;
+    }
+    footer {
+        width:95%;
+    }
+    article {
+        padding-left:40px;
+        display:inline-block;
+    }
+    article.pizza img, article.patat img, article.bier img {
+        width:30%;
+        margin-left:5%;
+        margin-right:2%;
+        float:left;
+    }
+    article.pizza a, article.patat p, article.bier a, article.pizza p, article.patat a, article.bier p {
+        padding-left:30px;
+        margin-right:10px;
+        width:50%;
+        float:left;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    form{
+        width:96%;
+    }
+    footer {
+        width: 96.7%;
+    }
+    div#wrapper {
+        width: 1200px;
+        margin: auto;
+    }
+    article {
+        width:100%;
+        margin:auto;
+        display:inline-block;
+    }
+    article.pizza img, article.patat img, article.bier img {
+        width:16%;
+        margin-right:30px;
+        margin-left:0;
+        float:right;
+    }
+    article.pizza a, article.patat p, article.bier a, article.pizza p, article.patat a, article.bier p {
+        padding-left:30px;
+        margin-right:10px;
+        width:50%;
+        float:left;
+    }
+    #Homepagina {
+        grid-area: Homepagina;
+    }
+    #Contactpagina {
+        grid-area: Contactpagina;
+    }
+    #Concerten {
+        grid-area: Concerten;
+    }
+    #Sportevenementen {
+        grid-area: Sportevenementen;
+    }
+    #Kamerbewoners {
+        grid-area: Kamerbewoners;
+    }
+}
+
+/*-- einde responsive--*/
+
+
