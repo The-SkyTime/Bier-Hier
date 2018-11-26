@@ -1,63 +1,7 @@
 /* font-family: 'PT Sans', sans-serif; voor artikelen!/
 / font-family: 'KoHo', sans-serif; voor text!*/
-
-* {
-    border: dotted 0px grey;
-}
-
-@media all and (min-width: 550px){
-    ul {
-        background-color: rgb(128,128,128);
-        border-top: 0px solid white;
-    }
-    li {
-        display: inline-block;
-        border: none;
-    }
-
-    img#stage {
-        width: 150%;
-    }
-}
-
-@media all and (min-width: 920px) {
-    section#nieuws {
-        width: 30%;
-        float: left;
-    }
-
-    article {
-        display: inline-block;
-        width: 90%;
-        margin-right: 20px;
-    }
-
-    article:nth-child(even) {
-        margin-right: 0px;
-    }
-
-    section#stage {
-        width: 45%;
-    }
-}
-
-@media all and (min-width: 1200px) {
-    div#wrapper {
-        width: 1200px;
-        margin: auto;
-    }
-    #Contactpagina {
-        grid-area: Contactpagina;
-    }
-    #Concerten {
-        grid-area: Concerten;
-    }
-    #Sportevenementen {
-        grid-area: Sportevenementen;
-    }
-    #Kamerbewoners {
-        grid-area: Kamerbewoners;
-    }
+div#wrapper {
+    background-color:rgb(230, 255, 250);
 }
 
 * {
@@ -187,15 +131,6 @@ nav {
 
 }
 
-.XD2 img {
-    max-width: 95%;
-    max-height: 45%;
-    width: auto;
-    height: auto;
-    min-width: 100px;
-    min-height: 70px;
-}
-
 .column2 button {
     background-color: #ff2130;
     border: none;
@@ -283,4 +218,34 @@ a {
 nav a:hover {
     color: lightgrey;
     text-decoration: none;
+}
+
+@media all and (min-width: 550px){
+    ul {
+        background-color: rgb(128,128,128);
+        border-top: 0px solid white;
+    }
+    li {
+        display: inline-block;
+        border: none;
+    }
+}
+
+@media all and (min-width: 920px) {
+    article {
+        display: inline-block;
+        width: 90%;
+        margin-right: 20px;
+    }
+
+    article:nth-child(even) {
+        margin-right: 0px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    div#wrapper {
+        width: 1200px;
+        margin: auto;
+    }
 }

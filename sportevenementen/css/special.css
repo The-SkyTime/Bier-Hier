@@ -1,5 +1,8 @@
 /* font-family: 'PT Sans', sans-serif; voor artikelen!/
 / font-family: 'KoHo', sans-serif; voor text!*/
+div#wrapper {
+    background-color:rgb(230, 255, 250);
+}
 
 * {
     border: dotted 0px grey;

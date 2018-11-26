@@ -2,6 +2,15 @@
 div#wrapper {
     background-color:rgb(230, 255, 250);
 }
+
+body {
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+section {
+    font-family: 'KoHo', sans-serif;
+}
 h1 {
     padding-left:68px;
 }
@@ -9,12 +18,11 @@ h1 {
 ul {
     padding: 0px;
     margin: 0px;
-    width:100%;
 }
 li {
     background-color: rgb(128,128,128);
-    padding:10px;
-    padding-left:20px;
+    padding: 10px;
+    padding-left: 20px;
     border-top: 1px solid white;
 }
 li a {
@@ -24,27 +32,19 @@ li a {
 }
 
 section, footer {
-    padding:20px;
+    padding: 20px;
 }
 footer {
     background-color: darkgrey;
     color: white;
     clear: both;
+    font-family: "PT Sans",sans-serif;
 }
 
 footer h3 {
     color: white;
 }
 
-.footer-links {
-    padding: 0 10px 0 0;
-    text-decoration: none;
-    color:#ffffff;
-}
-.footer-links:hover {
-    color:#4a78c2;
-    font-weight:600;
-}
 header {
     text-align:center;
 }
@@ -77,8 +77,13 @@ header {
         width:95%;
     }
     article {
-        padding-left:40px;
-        display:inline-block;
+        display: inline-block;
+        width: 90%;
+        margin-right: 20px;
+    }
+
+    article:nth-child(even) {
+        margin-right: 0px;
     }
     article.pizza img, article.patat img, article.bier img {
         width:30%;
@@ -121,21 +126,6 @@ header {
         margin-right:10px;
         width:50%;
         float:left;
-    }
-    #Homepagina {
-        grid-area: Homepagina;
-    }
-    #Contactpagina {
-        grid-area: Contactpagina;
-    }
-    #Concerten {
-        grid-area: Concerten;
-    }
-    #Sportevenementen {
-        grid-area: Sportevenementen;
-    }
-    #Kamerbewoners {
-        grid-area: Kamerbewoners;
     }
 }
 
